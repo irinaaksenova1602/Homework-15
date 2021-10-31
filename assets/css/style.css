@@ -1,0 +1,17 @@
+.container {
+  height: 80vh;
+  margin: 20px;
+}
+p+p{
+    display: none;
+}
+input:valid+p{
+    display: none;
+}
+input:valid+p+p{
+    display: block;
+}
+.telephone{
+    width: 300px;
+
+}
